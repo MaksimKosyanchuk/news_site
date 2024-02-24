@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0, .8);
+    color: #fff;
+    z-index: 2;
+  }
+  
+  .header_content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 60px; 
+  }
+  
+  .header_title {
+    font-size: 24px;
+    margin: 0;
+  }
