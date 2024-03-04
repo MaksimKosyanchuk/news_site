@@ -1,11 +1,13 @@
 import "./StartScreen.css"
 
-function StartScreen() {
+function StartScreen({ children }) {
     return (
         <div className="start-screen">
-           <div className="main-div">
-           
-           </div>
+            <div className="container">
+                <div className="main-div">
+                    {children}
+                </div>
+            </div>    
         </div>
     );
 }

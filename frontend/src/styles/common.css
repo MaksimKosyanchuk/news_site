@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     height: 100%;
     margin: 0;
+    font-family: fira sans,sans-serif
 }
 
 p, h1, h2, h3, h4 ,h5, h6{
@@ -8,8 +13,29 @@ p, h1, h2, h3, h4 ,h5, h6{
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .blurred {
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(10px);
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
 
 .App {
